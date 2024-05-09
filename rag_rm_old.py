@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain.document_loaders import PDFMinerLoader
+from langchain.document_loaders.pdf import PDFMinerLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import FAISS
 from langchain.chains import ConversationalRetrievalChain

@@ -8,6 +8,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.chat_models import ChatOpenAI
 import tempfile
 import os
+import requests
 
 OPENAI_API_KEY = st.secrets.openai_api
 
